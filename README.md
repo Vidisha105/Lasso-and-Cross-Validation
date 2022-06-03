@@ -12,3 +12,5 @@ Cross-validation is a resampling method that uses different portions of the data
 
 AIC and Cross Validation both are used to measure Out of Sample deviance. AIC measures the log-likelihood of the entire sample at once, based on parameters estimated using the entire sample, and subsequently adjusts for overfitting.  
 BIC tries to find the TRUE model among the set of candidates.
+
+The code compares Lasso regression vs 10 fold cross validation to assess which model performs better based on AIC, BIC, AICc, RMSE and out of sample R2.
